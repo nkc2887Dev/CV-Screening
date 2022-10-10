@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: fit-content;
+    padding: 4px 4px;
+    border: 2px solid white;
+    background-color: rgb(180, 175, 175) ;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+}
+.btn{
+    background-color: #65c9f0;
+    margin-top:15px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    color: #65c9f0;
+    background-color: black;
+}
+
+#profile{
+    font-size: larger;
+}
+#list li{
+    margin-bottom: 10px;
+}
